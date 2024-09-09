@@ -1,0 +1,84 @@
+body {
+    font-family: 'Times New Roman', serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f5f5f5;
+    background-color: #3c5c7c;
+    background-image: url('https://d31kzl7c7thvlu.cloudfront.net/ghost/2018/09/two-page-resume.jpg');
+    background-repeat: no-repeat; /* Prevent repeating */
+    background-size: cover /* Cover the entire page */
+
+}
+
+#header {
+    background-color: bisque;
+    text-align: center;
+    padding: 10px;
+}
+
+h1 {
+    color: rgb(12, 11, 11);
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    background-color: #263D42;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(233, 11, 11, 0.5);
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+fieldset {
+    border: 2px solid #333;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: aliceblue;
+}
+
+legend {
+    font-weight: bold;
+    color: #99185f;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: #b12186;
+}
+
+input, textarea {
+    width: calc(100% - 10px);
+    padding: 8px;
+    margin-top: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(129, 73, 73);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: rgb(27, 31, 31);
+}
+
+#resumeOutput {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #717c7c;
+    border-radius: 8px;
+    color: brown;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
